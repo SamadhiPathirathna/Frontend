@@ -27,8 +27,8 @@
 
 }
 .to-do h2 img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-left: 260px;
     border-radius: 8px;
 
@@ -79,7 +79,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url("image/to-do.jpg");
+    background-image: url("image/to-do.png");
     background-size: cover;
     background-position: center;
     top:12px;
@@ -91,7 +91,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(image/checked.jpg);
+    background-image: url(image/checked.jpeg);
 }
 ul li span{
     position: absolute;
