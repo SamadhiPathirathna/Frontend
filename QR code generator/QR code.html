@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
+    <title>QR code Generator</title>
+    <Link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <p>Enter Text or URL</p>
+  <input type="text" placeholder="Text or URL" id="QRtext">
+
+  <div id="imgBox">
+    <img src="" id="QRimage">
+  </div>
+
+  <button onclick="generateQR()" >Generate QR code</button>
+
+</div>
+
+
+<script>
+    let imgBox=document.getElementById("imgBox");
+    let qrImage=document.getElementById("QRimage");
+    let qrText=document.getElementById("QRtext");
+
+
+//if text length is > 0 show the image
+    function generateQR(){
+        if(qrText.value.length>0){
+            qrImage.src=" " + qrText.value;
+            imgBox.classList.add("show-img");
+
+        } 
+ //show error in animation when no text is entered
+        else{
+            qrText.classList.add("error");// add classname
+            setTimeout(()=>{
+                qrText.classList.remove('error'); // remove after 1s
+            },1000,
+            imgBox.classList.remove("show-img")
+            )
+            
+            
+        }
+       
+
+}
+</script>
+</body>
+
+</html>

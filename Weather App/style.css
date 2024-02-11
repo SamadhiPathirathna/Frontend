@@ -102,3 +102,14 @@ image{
 .para{
     font-size: 10px;
 }
+.weather{
+    display: contents;
+}
+.error{
+    text-align:left;
+    margin-left: 10px;
+    font-size:14px;
+    margin-top:10px;
+    display: none;
+   
+}
