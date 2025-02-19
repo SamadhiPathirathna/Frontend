@@ -1,7 +1,7 @@
 # Frontend
 
 ## Description
-This project is a frontend application that includes several features such as a weather application, a calculator, and more. The project is maintained by Samadhi Pathirathna.
+This project is a frontend application that includes several features such as a weather application, a calculator, and more. 
 
 ## Features
 - **Weather Application:** Provides weather information based on user input.
@@ -29,30 +29,6 @@ To start the application, run the following command:
 npm start
 ```
 The application will be available at `http://localhost:3000`.
-
-## Contributing
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-branch
-   ```
-5. Create a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-If you have any questions or suggestions, feel free to contact the author at it21036002@gmail.com.
 
 ## Recent Commits
 - [Complete](https://github.com/SamadhiPathirathna/Frontend/commit/c8da6ccd14230f934fc7dc26c18b0a3c796543f6)
